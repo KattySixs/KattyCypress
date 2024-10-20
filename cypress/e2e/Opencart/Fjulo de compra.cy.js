@@ -42,7 +42,8 @@ describe('Flujo de compra en OpenCart', () => {
       cy.get('input[name="agree"]').check() // Aceptar términos y condiciones
       cy.get('#button-payment-method').click() // Continuar a métodos de pago
   
-      // Paso 9: Confirmar la compra
+      // Paso 9: Confirmar la compras
+      
       cy.get('#button-confirm').click()
   
       // Paso 10: Verificar que la compra se completó
