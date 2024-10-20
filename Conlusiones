@@ -1,21 +1,8 @@
 # Conclusiones del Proyecto de Pruebas E2E con Cypress
 
-## 1. Automatización del Flujo de Compra
 El uso de Cypress ha permitido automatizar de manera eficiente el flujo de compra en el sitio web de OpenCart. La prueba cubre desde la selección de productos hasta la confirmación de un pedido, lo que asegura que el proceso de compra funcione correctamente bajo diferentes escenarios.
-
-## 2. Uso de XPath
 El uso de `cypress-xpath` permitió la selección de elementos de manera más flexible en casos donde los selectores CSS eran complejos o poco precisos. Sin embargo, en general, Cypress se desempeña mejor con selectores CSS nativos, por lo que se recomienda utilizar XPath solo cuando sea estrictamente necesario.
-
-## 4. Rendimiento y Tiempo de Ejecución
 El tiempo de ejecución de las pruebas fue eficiente en modo "headless", lo que lo hace ideal para integrarse en pipelines de CI/CD. Cypress gestionó de manera adecuada los tiempos de espera y las interacciones con el DOM, asegurando que las pruebas no fallaran debido a la velocidad de carga de la página o a la aparición tardía de ciertos elementos.
-
-## 5. Mantenimiento de las Pruebas
-Gracias a su estructura clara y modular, mantener y actualizar las pruebas de Cypress es sencillo. Las pruebas son legibles y fácilmente modificables, lo que facilita la actualización de los flujos de trabajo si se producen cambios en la interfaz de usuario o en la funcionalidad del sitio.
-
-## 6. Recomendaciones
-- **Cobertura de Pruebas:** Se recomienda expandir el alcance de las pruebas E2E para cubrir otros flujos críticos, como el registro de usuarios y la gestión de cuentas.
-
-## 8. Conclusión Final
 Este proyecto de pruebas E2E con Cypress ha mostrado que la automatización del flujo de compra en OpenCart es efectiva y robusta. La simplicidad y poder de Cypress, combinado con una configuración rápida, lo convierte en una excelente opción para la automatización de pruebas de interfaz de usuario, con potencial para extenderse a otros flujos y mejorar la calidad continua del sistema.
 
 Nota: No se uso el framework recomendale debido a falta de tiempo para la configuracion de las herramientas y ambiente necesario/
