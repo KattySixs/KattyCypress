@@ -15,19 +15,13 @@ Este proyecto realiza pruebas automatizadas E2E (End-to-End) utilizando Cypress.
 - Escoger el navegador donde se va a ejecutar la prueba y clic en: "Start E2E Testing in #####"
 
 ## Instalación del Proyecto
-- Clonar el repositorio desde una terminal bash con el siguiente comando: git clone https://github.com/tu-usuario/tu-repositorio.git
-- Localizarse en el repositorio clonado: cd repositorio
-
-
-## Instalación de Configuración de Cypress-XPath
-Validar que la siguiente línea esté agregada al archivo cypress/support/commands.js para habilitar el uso de XPath:
-require('cypress-xpath')
+- Clonar el repositorio desde una terminal bash con el siguiente comando: git clone https://github.com/KattySixs/KattyCypress.git
+- Localizarse en el repositorio clonado
 
 ##Ejecutar el proyecto
-Dirigirse a la siguiente ruta: cypress/e2e/Opencart
-Revisar el archivo de prueba: Fjulo de compra.cy.js
-
-Establecer en la terminal el comando: npx cypress open
-Seleccionar el navegador que necesite
-Seleccionar la carpeta Opencart y el archivo Fjulo de compra.cy.js
-Revisar el resultado satisfactorio.
+- Dirigirse a la siguiente ruta: cypress/e2e/Opencart
+- Revisar el archivo de prueba: Fjulo de compra.cy.js
+- Establecer en la terminal el comando: npx cypress open
+- Seleccionar el navegador que necesite
+- Seleccionar la carpeta Opencart y el archivo Fjulo de compra.cy.js
+- Revisar el resultado satisfactorio.
