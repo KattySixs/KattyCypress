@@ -3,20 +3,12 @@
 Este proyecto realiza pruebas automatizadas E2E (End-to-End) utilizando Cypress. La prueba cubre un flujo de compra en la página [OpenCart](http://opencart.abstracta.us/), incluyendo agregar productos al carrito, realizar el "Guest Checkout", y finalizar la compra con éxito.
 
 ## Requisitos Previos
-
-Antes de ejecutar las pruebas, asegúrate de tener los siguientes requisitos instalados en tu máquina:
-
 - [Node.js](https://nodejs.org/) (versión LTS recomendada)
 - [npm](https://www.npmjs.com/) (incluido con Node.js)
 
 ## Instalación del Proyecto
-
-Sigue estos pasos para configurar y ejecutar el proyecto:
-
-1. **Clonar el repositorio** (si es un proyecto versionado):
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+- Clonar el repositorio desde una terminal bash con el siguiente comando: git clone https://github.com/tu-usuario/tu-repositorio.git
+- Localizarse en el repositorio clonado: cd repositorio
 
 ## Instalación de dependencias
 npm install
@@ -24,6 +16,14 @@ npm install
 npm install -D cypress-xpath
 
 ## Instalación de Configuración de Cypress-XPath
-Asegúrate de que la siguiente línea esté agregada al archivo cypress/support/commands.js para habilitar el uso de XPath:
+Validar que la siguiente línea esté agregada al archivo cypress/support/commands.js para habilitar el uso de XPath:
 require('cypress-xpath')
 
+##Ejecutar el proyecto
+Dirigirse a la siguiente ruta: cypress/e2e/Opencart
+Revisar el archivo de prueba: Fjulo de compra.cy.js
+
+Establecer en la terminal el comando: npx cypress open
+Seleccionar el navegador que necesite
+Seleccionar la carpeta Opencart y el archivo Fjulo de compra.cy.js
+Revisar la compilación satisfactoria.
