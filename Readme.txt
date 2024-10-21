@@ -1,6 +1,6 @@
 # Proyecto de Pruebas E2E con Cypress
 
-Este proyecto realiza pruebas automatizadas E2E (End-to-End) utilizando Cypress. La prueba cubre un flujo de compra en la página [OpenCart](http://opencart.abstracta.us/), incluyendo agregar productos al carrito, realizar el "Guest Checkout", y finalizar la compra con éxito.
+Este proyecto realiza pruebas automatizadas E2E (End-to-End) utilizando Cypress. La prueba cubre un flujo de compra en la página [OpenCart](http://opencart.abstracta.us/), donde se agregan 2 productos al carrito, se visualizan el carrito, se completa el checkout como invitado "Guest Checkout", y se finaliza la compra con éxito.
 
 ## Requisitos Previos
 - [Node.js](https://nodejs.org/) (versión LTS recomendada)
