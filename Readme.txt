@@ -26,4 +26,4 @@ Revisar el archivo de prueba: Fjulo de compra.cy.js
 Establecer en la terminal el comando: npx cypress open
 Seleccionar el navegador que necesite
 Seleccionar la carpeta Opencart y el archivo Fjulo de compra.cy.js
-Revisar la compilación satisfactoria.
+Revisar el resultado satisfactorio.
