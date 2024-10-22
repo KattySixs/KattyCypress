@@ -18,3 +18,13 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // Ignorar errores específicos que contengan "pagespeed"
+    if (err.message.includes('pagespeed')) {
+      return false; // Prevenir que Cypress falle la prueba
+    }
+  
+    // Permitir que otros errores no sean ignorados
+    return true;
+  });
