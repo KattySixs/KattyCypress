@@ -4,18 +4,6 @@ import VerCarrito from '../../support/Paginas_Flujo/VerCarrito';
 import VerificarCheckout from '../../support/Paginas_Flujo/VerificarCheckout';
 
 describe("Flujo de compra en OpenCart", () => {
-    const datos = {
-        firstName: "Katherine",
-        lastName: "Sigcha",
-        email: "kattyta_limo89@hotmail.com",
-        phone: "0983588752",
-        address: "123 abc",
-        city: "Quito",
-        postcode: "111222",
-        country: "Ecuador",
-        zone: "Pichincha"
-    };
-
     it("Realizar el flujo de compra de 2 productos como invitado", () => {
         //Dirigirse al sitio opencart
         Tienda.visit();
